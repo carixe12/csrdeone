@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  line-height: 1.1;
+}
+
+.container {
+  width: 1100px;
+  max-width: 35%;
+  margin: 0 auto ;
+  border-radius: 10px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card{
+  flex: 1 1 20rem;
+  display: flex;
+  align-items: center ;
+  margin: 10px 20px;
+  flex-direction: column;
+  background: rgb(78, 74, 74);
+  padding: 15px 10px;
+  align-self: normal;
+  border-radius: 10px;
+
+}
+
+.logo {
+  margin-left: 220px;
+  font-size: 12px;
+
+}
+
+.App-logo {
+  margin-left: 280px;
+  margin-bottom: -12px;
+
+}
+
+.text1 {
+  font-size: 14px;
+  margin-right: 135px;
+
+
+}
+.text2 {
+  font-size: 14px;
+  margin-right: 192px;
+}
+
+.icon {
+  color: brown;
+  margin-right: 290px;
+  margin-top: -10px;
+}
+
+.text3 {
+  margin-left: -193px;
+  margin-bottom: -15px;
+  padding: 10px;
+  font-size: 11px;
+
+}
+
+.text4 {
+  font-size: 13px;
+  margin: 15px;
+  margin-left: 5px;
+
+}
+
+.text5 {
+  font-size: 13px;
+  margin-left: -24px;
+  margin-top: -15px;
+}
+
+.text6 {
+  font-size: 13px;
+  margin-left: -223px;
+}
+
+.text7 {
+
+  font-size: 14px;
+  margin-left: -97px;
+  margin-top: 25px;
+}
+
+.table1 {
+  margin-top: 10px;
+  margin-left: 19px;
+  font-size: 13px;
+
+}
+
+.price {
+  color: red;
+  margin-left: 218px;
+  padding-top: -10px;
+  position: relative;
+  top: -32px;
+}
+
+.subtitle {
+  padding: 2px;
+}
+
